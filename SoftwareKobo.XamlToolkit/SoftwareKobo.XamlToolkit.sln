@@ -13,8 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareKobo.XamlToolkit.WP
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SoftwareKobo.XamlToolkit.Shared", "SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.shproj", "{D83EE55A-4791-4CA2-A183-872494DC0573}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareKobo.XamlToolkit.Silverlight", "SoftwareKobo.XamlToolkit.Silverlight\SoftwareKobo.XamlToolkit.Silverlight.csproj", "{DD48240B-6C5E-487C-8B4C-549CF7C22E08}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.projitems*{dd48240b-6c5e-487c-8b4c-549cf7c22e08}*SharedItemsImports = 4
 		SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.projitems*{6edcdf84-6862-41f6-8e68-e077d5ab67b0}*SharedItemsImports = 4
 		SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.projitems*{8c480bda-1b68-4c0b-9853-630514802135}*SharedItemsImports = 4
 		SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.projitems*{d83ee55a-4791-4ca2-a183-872494dc0573}*SharedItemsImports = 13
@@ -94,6 +97,22 @@ Global
 		{8C480BDA-1B68-4C0B-9853-630514802135}.Release|x64.Build.0 = Release|Any CPU
 		{8C480BDA-1B68-4C0B-9853-630514802135}.Release|x86.ActiveCfg = Release|Any CPU
 		{8C480BDA-1B68-4C0B-9853-630514802135}.Release|x86.Build.0 = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|x64.Build.0 = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|ARM.Build.0 = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x64.Build.0 = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

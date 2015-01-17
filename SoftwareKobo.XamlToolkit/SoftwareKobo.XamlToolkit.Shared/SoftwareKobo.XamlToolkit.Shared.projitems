@@ -9,5 +9,7 @@
     <Import_RootNamespace>SoftwareKobo.XamlToolkit</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\VisibilityToBooleanConverter.cs" />
   </ItemGroup>
 </Project>
