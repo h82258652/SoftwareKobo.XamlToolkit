@@ -1,6 +1,5 @@
 ﻿using System;
 #if WPF||SILVERLIGHT
-using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 #endif
@@ -15,7 +14,7 @@ namespace SoftwareKobo.XamlToolkit.Converters
     {
         public object Convert(object value, Type targetType, object parameter,
 #if WPF||SILVERLIGHT
-            CultureInfo culture
+            System.Globalization.CultureInfo culture
 #endif
 #if WinRT
             string language
@@ -34,7 +33,7 @@ namespace SoftwareKobo.XamlToolkit.Converters
 
         public object ConvertBack(object value, Type targetType, object parameter,
 #if WPF||SILVERLIGHT
-            CultureInfo culture
+            System.Globalization.CultureInfo culture
 #endif
 #if WinRT
             string language
