@@ -15,6 +15,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SoftwareKobo.XamlToolkit.Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareKobo.XamlToolkit.Silverlight", "SoftwareKobo.XamlToolkit.Silverlight\SoftwareKobo.XamlToolkit.Silverlight.csproj", "{DD48240B-6C5E-487C-8B4C-549CF7C22E08}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D698851A-5D1A-4794-833D-2EEAA871F270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.csproj", "{F982924A-7C05-4C8B-AE8E-3AED4853D259}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SoftwareKobo.XamlToolkit.Shared\SoftwareKobo.XamlToolkit.Shared.projitems*{dd48240b-6c5e-487c-8b4c-549cf7c22e08}*SharedItemsImports = 4
@@ -113,8 +117,27 @@ Global
 		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x64.Build.0 = Release|Any CPU
 		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x86.ActiveCfg = Release|Any CPU
 		{DD48240B-6C5E-487C-8B4C-549CF7C22E08}.Release|x86.Build.0 = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|x64.Build.0 = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Debug|x86.Build.0 = Debug|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|ARM.Build.0 = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|x64.ActiveCfg = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|x64.Build.0 = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|x86.ActiveCfg = Release|Any CPU
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F982924A-7C05-4C8B-AE8E-3AED4853D259} = {D698851A-5D1A-4794-833D-2EEAA871F270}
 	EndGlobalSection
 EndGlobal

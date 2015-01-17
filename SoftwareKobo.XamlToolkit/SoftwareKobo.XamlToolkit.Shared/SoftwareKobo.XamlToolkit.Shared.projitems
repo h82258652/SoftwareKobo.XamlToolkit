@@ -11,5 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BooleanToVisibilityConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\VisibilityToBooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObserableObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModelBase.cs" />
   </ItemGroup>
 </Project>
