@@ -34,7 +34,7 @@ namespace SoftwareKobo.XamlToolkit
 #endif
 
                 // TODO move message to resx
-                throw new NotImplementedException("该平台暂未实现");
+                throw new NotImplementedException("该平台暂未实现");                
             }
         }
     }

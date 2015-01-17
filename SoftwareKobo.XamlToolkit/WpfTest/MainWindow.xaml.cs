@@ -24,14 +24,7 @@ namespace WpfTest
         public MainWindow()
         {
             InitializeComponent();
-            if (ViewModelBase.IsInDesignMode)
-            {
-                txtInDesignMode.Text = ViewModelBase.IsInDesignMode.ToString();
-            }
-            else
-            {
-                txtInDesignMode.Text = ViewModelBase.IsInDesignMode.ToString();
-            }
+            txtInDesignMode.Text = ViewModelBase.IsInDesignModeStatic.ToString();
         }
     }
 }

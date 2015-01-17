@@ -1,5 +1,4 @@
-﻿#if !WINDOWS_FORM_APP
-using System;
+﻿using System;
 #if WPF||SILVERLIGHT
 using System.Globalization;
 using System.Windows;
@@ -56,4 +55,3 @@ namespace SoftwareKobo.XamlToolkit.Converters
         }
     }
 }
-#endif

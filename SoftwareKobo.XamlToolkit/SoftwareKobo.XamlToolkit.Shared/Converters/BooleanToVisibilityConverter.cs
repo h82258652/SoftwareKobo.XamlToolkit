@@ -1,13 +1,27 @@
-﻿#if WINDOWS_APP || WINDOWS_PHONE_APP
-using System;
+﻿using System;
+#if !WPF
+#if SILVERLIGHT
+using System.Globalization;
+using System.Windows;
+using System.Windows.Data;
+#endif
+#if WinRT
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
+#endif
 
 namespace SoftwareKobo.XamlToolkit.Converters
 {
     public class BooleanToVisibilityConverter : IValueConverter
     {
-        public object Convert(object value, Type targetType, object parameter, string language)
+        public object Convert(object value, Type targetType, object parameter,
+#if SILVERLIGHT
+            CultureInfo culture
+#endif
+#if WinRT
+            string language
+#endif
+            )
         {
             bool bValue = false;
             if (value is bool)
@@ -22,7 +36,14 @@ namespace SoftwareKobo.XamlToolkit.Converters
             return (bValue) ? Visibility.Visible : Visibility.Collapsed;
         }
 
-        public object ConvertBack(object value, Type targetType, object parameter, string language)
+        public object ConvertBack(object value, Type targetType, object parameter,
+#if SILVERLIGHT
+            CultureInfo culture
+#endif
+#if WinRT
+            string language
+#endif
+            )
         {
             if (value is Visibility)
             {
